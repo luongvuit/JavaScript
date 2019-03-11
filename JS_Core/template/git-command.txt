@@ -1,0 +1,23 @@
+1 Installing Git for Linux
+	sudo apt-get install git
+
+
+2 Configuring GitHub
+	git config --global user.name "user_name"
+	git config --global user.email "email_id"
+
+
+3 Creating a local repository
+	git init Mytest
+
+
+4 Status
+	git status
+
+
+5 Commit
+	git commit -m "Comment"
+
+
+6 Commit master
+	git push -u  origin master
