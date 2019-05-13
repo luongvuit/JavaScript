@@ -1,3 +1,7 @@
 const tutorial = require('./modules/tutorial');
-console.log(tutorial);
-console.log(tutorial(1,1));
+
+console.log(tutorial.sum(1,1));
+
+tutorial.myFunction();
+
+console.log(tutorial.myString);
